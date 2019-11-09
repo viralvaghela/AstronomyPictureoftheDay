@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Astronomy Picture of the Day</string>
+    <string name="title_activity_data">Data</string>
+    <string name="each_day_a_different_image_or_photograph_of_our_fascinating_universe_is_featured_along_with_a_brief_explanation_written_by_a_professional_astronomer">Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</string>
+</resources>
