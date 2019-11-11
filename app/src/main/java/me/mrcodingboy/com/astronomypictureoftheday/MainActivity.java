@@ -8,8 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.ProgressBar;
 import android.widget.Toast;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
     Button button,get;
     String getdatadate = "";
     String url="";
+
     private RequestQueue requestQueue;
 
     @Override
@@ -59,8 +60,8 @@ public class MainActivity extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                datePickerDialog.setTitle("Aaa");
-               datePickerDialog.show();
+
+                datePickerDialog.show();
 
             }
         });
